@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical Ballet Tribute Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- start of main -->
+<main id="main">
+
+    <!-- start of body -->
+
+    <body>
+        <div id="video">
+            <h4>Watch this short video to learn more about ballet.</h4>
+            <video width="400" controls>
+                <source src="./Ballet.mp4">
+            </video>
+        </div>
+
+        <div id="audio">
+            <button type="button" id="myPlay" onclick="playAudio()">&#9199; Play</button><br>
+            <button type="button" id="myPause" onclick="pauseAudio()">&#9208;Pause</button><br>
+            <label for="button">Click to hear some classical music while you view my page.</label>
+            <audio loop id="myClassical">
+                <source src="./classical.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+
+        <!-- header image -->
+        <header><img src="./ballet_header.jpg" id="ballet_font"></header>
+        <img src="./toeshoes2.jpg" id="toeshoes">
+
+        <!-- text about my page -->
+        <p id="title">As a classically-trained ballet dancer, I want to share my love of this extreme & elegant art
+            form.</p>
+
+        <!-- some text about ballet -->
+        <div class="side1" id="tribute-info">
+            <h2> History of Ballet</h2>
+            <p>Ballet originated during the Italian Renaissance period in history. It developed into a
+                performance-focused art form under the patronage of French King Louis XIV, also known as the 'Sun King'.
+                Politcal motivations interfered with his passion for dance and he established strict social etiquttes
+                around dance, which was then considered one of the most crucial elements of court life at that time.</p>
+            <p>During the 19th century, the most popular dance performer in Europe became the ballerina, essentially
+                stealing the spotlight from the male dancers. Ballerinas such as Genevieve Gosselin, Marie Taglioni,and
+                Fanny Elssler experimented with the new technique of pointework, giving the ballerina prominence as the
+                "ideal" stage figure. Taglioni was known as the "Christian Dancer," her image being light and pure
+                (associated with her role as the sylph in <cite>La Sylphide.</cite> In 1834, Fanny Elssler became known
+                as the "Pagan Dancer," due to the fiery qualities of the Cachucha dance that made her famous at the
+                Paris Opera. The ballet boxed toe shoe was invented to support the toe work they made famous.</p>
+            <p>The female dancers' classical tutu as it is recognized today began to appear at this time. It consisted
+                of a short, stiff skirt supported by layers of crinoline ot tulle that revealed the acrobatic legwork.
+            </p>
+            <!-- end of side1 div -->
+        </div>
+
+        <!-- side 2 -->
+        <div class="side2">
+            <h1>My Favorite Ballet Companies</h1>
+            <h2> Columbia City Ballet</h2>
+            <p> Founded in 1961 by James Montjoy Calvert, Naomi Calvert, and original Artistic Director Ann Brodie, the
+                Columbia City Ballet has enriched the lives of Columbia residents by introducing to them this incredible
+                art form.</p>
+            <p> Today, under Artistic Director William Starret, it offers more than 80 major performances annually,
+                reaching more than 51,000 people each dance season. Every October, they perform <cite>Dracula</cite>,
+                and have partnered with local South Carolina artists in <cite>Off The Wall</cite>, bringing the art
+                works to life on the stage. The company presents four to five full-length ballet productions each
+                season. Additionally, it reularly tours locations throughout South Carolina, Florida, and Georgia.</p>
+            <a href="https://columbiacityballet.com/" id="tribute-link" target="_blank">Visit Columbia City Ballet</a>
+            <h2>Atlanta Ballet</h2>
+            <p>The Atlanta Ballet was founded in 1929. Among the premier dance companies in the country, it is the
+                official State Ballet of Georgia. In 1996, it opened the Centre for Dance Education, which works to
+                nurture young dancers while providing an outlet for adults to express their creativity. The Centre
+                serves more than 23,000 artists in metro Atlanta each year.</p>
+            <p>Keeping in touch with the times and supporting other artists from Georgia, the Atlanta Ballet structured
+                an entire performance around the songs from the Hip-Hop duo Outkast.</p>
+            <a href="https://www.atlantaballet.com/" id="tribute-link" target="_blank">Visit Atlanta Ballet</a>
+            <!-- end of side2 div -->
+        </div>
+
+        <!-- photo grid -->
+        <div id="img-div">
+
+            <!-- row 1 -->
+            <div class="row1">
+
+                <!-- images in first half -->
+                <div class="-half">
+                    <!-- Remember to follow the user story more closely when it comes to id names -->
+                    <figure id="images1">
+                        <img src="./stretching.jpg" id="stretch" alt="A ballerina stretching on the floor">
+                        <img src="./barrework.jpg" id="barre" alt="ballerinas working at the barre in class">
+                        <img src="./backstage.jpg" id="swing" alt="a ballerina on a swing">
+                        <img src="./close-up-tutu.jpg" id="tutu" alt="closeup image of a fancy tutu">
+                        <!-- Remember to follow the user story -->
+                        <figcaption id="img-caption1">A ballet dancer must represent stillness, power, grace, beauty,
+                            poise, athleticism, and artistry with every gesture. </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- pavlova div -->
+            <div class="pavlova">
+                <h2> Anna Pavlova</h2>
+                <p> Anna Pavlova was a Russian <i>prima ballerina</i> of the late 19th and early 20th centuries. She was
+                    a principal dancer of the Imperial Russian Ballet and the Ballets Russes of Sergei Diaghilev.
+                    Pavlova, with her own company, became the first ballerina to tour the world, including performances
+                    in South America, India, and Australia.</p>
+                <p>Pavlova is perhaps most well-known for <cite>The Dying Swan</cite>, a solo created and choreographed
+                    for her by Michel Fokine. Created in 1905, the ballet is danced to "Le cygne" from 'The Carnival of
+                    the Animals' by Camille Saint-Saens. Pavlova also choreographed several solos herself, one of which
+                    is <cite>The Dragonfly</cite>, a short ballet set to music by Fritz Kreisler. While performing this
+                    role, Pavlova wore a gossamer gown with large dragonfly wings affixed to the back. </p>
+                <figure>
+                    <img src="./dancer13.jpg" alt="a ballerina in a swan costume" id="swan">
+                    <figcaption id="img-caption3">On her deathbed, Anna Pavlova's last words were: "Get my swan costume
+                        ready."</figcaption>
+                </figure>
+            </div>
+
+            <!-- row 2 -->
+            <div class="row2">
+
+                <!-- images in second half -->
+                <div class="-otherhalf">
+                    <figure>
+                        <img src="./dancecompany.jpg" id="company"
+                            alt="a dance company en pointe wearing blue leotards">
+                        <img src="./portdebras.jpg" id="portdebras" alt="a ballerina posing with arms out slightly">
+                        <img src="./twirl.jpg" id="twirl" alt="a ballerina twirling on her toes">
+                        <img src="./dancer2.jpg" id="twirl2" alt="a blurred picture of a dancer in motion">
+                        <figcaption id="img-caption2">A ballerina must make each movement appear effortless and natural.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- round photos -->
+            <div id="circle">
+
+                <div id="roundphotos">
+                    <figure>
+                        <img src="./dancer-stretch.jpg" id="dancer-stretch"
+                            alt="a ballet company stretching together on the floor">
+                        <img src="./choreography.jpg" id="round" alt="three dancers performing choreography onstage">
+                        <img src="./toeshoes2.jpg" id="closeup" alt="closeup image of a dancers toes en pointe">
+                        <figcaption id="img-caption4">Ballerinas must form elegant shapes and lines with their bodies.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- end of img div -->
+        <div id="misty">
+            <h2 class="misty_head">Misty Copeland</h2>
+            <img src="./silhouette.jpg" alt="a silhouette of a ballerina en pointe" class="silhouette">
+            <p>Misty Danielle Copeland (born September 10, 1982) is a ballet dancer for American Ballet Theatre, one of the three leading classical ballet companies in the United States. On June 30, 2015, Copeland became the first African American woman to be promoted to principal dancer in ABT's 75-year history. </p>
+            <p>Copeland is considered a prodigy who rose to stardom despite not starting ballet until the age of 13. Two years later, in 1998, her ballet teachers, who were serving as her custodial guardians, and her mother, fought a custody battle over her. The legal issues involved filings for emancipation by Copeland and restraining orders by her mother. Both sides dropped legal proceedings, and Copeland moved home to begin studying under a new teacher, who was a former ABT member. Meanwhile, Copeland, who was already an award-winning dancer, was fielding professional offers.</p>
+            <p>In 1997, Copeland won the Los Angeles Music Center Spotlight Award as the best dancer in Southern California. After two summer workshops with ABT, she became a member of ABT's Studio Compnay in 2000, and its corps de ballet in 2001. She became an ABT soloist in 2007 and during this time, until mid-2015, she was described as having matured into a more contemporary and sophisticated dancer.</p>
+            <p>In addition to her dance career, Copeland has become a public speaker, celebrity spokesperson and stage performer. She has written two autobiographical books and narrated a documentary about her career challenges, <cite>A Ballerina's Tale</cite>. In 2015, she was named one of the 100 most influential people in the world by <cite>Time</cite> magazine, appearing on its cover. She even performed on Broadway in <cite>On the Town</cite>. She toured as a featured dancer for Prince, where she danced en pointe on top of a piano. If she was unable to appear, then Prince would not perform that particular song. She has also appeared on the reality television shows <cite>A Day in the Life</cite> and <cite> So You Think You Can Dance</cite>, and acted as a guesy judge on <cite> World of Dance</cite>. She has endorsed products and companies such as T-Mobile, Coach, Inc., Dr Pepper, Seiko, The Dannon Company and Under Armour.</p>
+        </div>
+        <!-- end of misty div -->
+    </div>
+    <footer>
+        <img src="./dancer14.jpg" alt="a photo of toe shoes" id="end"><p>Thank you for viewing my site. This page is dedicated to Kristine A. Thompson, my former ballet teacher and mentor.</p>
+
+    </footer>
+        <script src="./script.js"></script>
+    </body>
+</main>
+</html>

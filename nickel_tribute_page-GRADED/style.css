@@ -1,0 +1,425 @@
+body {
+    height:5050px; 
+    background: linear-gradient(75deg,rgb(241, 185, 216), rgb(247, 166, 209), rgb(245, 128, 190) );
+    background-repeat: repeat, space;
+    background-blend-mode: luminosity;
+    font-family: cursive;
+}
+
+/* header image */
+#ballet_font {
+    margin-left: 30%;
+    position: relative;
+    margin-top: -185px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgb(59, 56, 56), 0 6px 20px 0 rgb(59, 56, 56), 0 4px 8px 0 rgb(59, 56, 56), 0 6px 20px 0 rgb(59, 56, 56);
+}
+
+/* toe shoes image behind header */
+#toeshoes {
+    width: 500px;
+    height: 820px;
+    margin-left: 37%;
+    filter: grayscale(100%);
+    position: absolute;
+    z-index: -1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+}
+#ballet_font::before {
+content: url(toeshoes2.jpg);
+}
+
+/* title div */
+#title {
+    text-align: center;
+    margin: auto;
+    width: 450px;
+    position:relative;
+    top: 45px;
+    color:rgb(245, 129, 191);
+    font-size: x-large;
+    text-shadow: 2px 2px 3px rgb(59, 56, 56);
+}
+
+/* audio div */
+#audio {
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+    position: relative;
+    float: right;
+    width: 350px;
+    height: 150px;
+    top: 25px;
+    right: 85px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+button {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* video div */
+#video {
+    position: relative;
+    top: 215px;
+    left: 15px;
+}
+
+/* text for side 1 (history)*/
+.side1 {
+    position: relative;
+    float: left;
+    left: 15px;
+    margin-top: 125px;
+    width: 550px;
+    text-indent: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+    line-height: 1.6;
+    padding: 10px;
+}
+.side1 h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* text for side 2 (companies) */
+.side2 {
+    display: relative;
+    float: right;
+   margin-top: 55px;
+    margin-right: 15px;
+    width: 550px;
+    text-indent: 10px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+}
+.side2 h1 {
+    text-align: center;
+}
+.side2 h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* start of image gallery */
+
+/* start of row1 div */
+.row1 {
+    width: 755px;
+    height: 857px;
+    float: left;
+    position: relative;
+    top: 225px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+}
+/* style for first half */
+.row1 .-half {
+    width: 750px;
+    height: 855px;
+    clear: both;
+}
+/* photos in half div */
+.-half #barre {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+    height: 550px;
+    width: 300px;
+    position: relative;
+    float: left;
+}
+.-half #stretch {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 368px;
+    height: 225px;
+    position: relative;
+    float: right;
+    top: 25px;
+    right: 5px;
+}
+.-half #tutu {
+   border-radius: 8px;
+    width: 350px;
+    height: 255px;
+    position: relative;
+    float: left;
+    bottom: 253px;
+    right: 20px;
+}
+.-half #swing {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 350px;
+    height: 575px;
+    position: relative;
+    float: right;
+    top: 25px;
+    right: 22px;
+}
+.-half #img-caption1 {
+    background-color: rgb(122, 106, 106);
+    border-radius: 4px;
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    color:rgb(245, 128, 190);
+    text-align: center;
+    position: relative;
+    float: left;
+    bottom: 260px;
+    box-shadow: 0 4px 8px 3px rgb(245, 129, 191);
+}
+
+/* start of row2 div */
+.row2 {
+    width: 650px;
+    height: 850px;
+    position: relative;
+    float: right;
+    bottom: 1750px;
+}
+/* style for second half */
+.row2 .-otherhalf {
+    margin-top: 60px;
+    width: 645px;
+    height: 755px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+    padding: 10px;
+}
+/* photos in otherhalf div */
+.-otherhalf #portdebras {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    float: right;
+    right: 95px;
+}
+.-otherhalf #twirl {
+    height: 350px;
+    width: 400px;
+    position: relative;
+    float: left;
+    right: 35px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.-otherhalf #twirl2 {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    float: right;
+    filter: grayscale(95%);
+    bottom: 350px;
+    left: 10px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.-otherhalf #company {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    float: left;
+    filter: grayscale(95%);
+    border-top-left-radius: 6px;
+
+}
+.-otherhalf #img-caption2 {
+    background-color: rgb(122, 106, 106);
+    border-radius: 4px;
+    width: 255px;
+    height: 75px;
+    padding: 5px;
+    color:rgb(245, 128, 190);
+    text-align: center;
+    position: relative;
+    float:right;
+    left: 275px;
+    bottom: 150px;
+    box-shadow: 0 4px 8px 3px rgb(245, 129, 191);
+}
+
+/* pavlova div */
+.pavlova {
+    width: 650px;
+    position: relative;
+    float: left;
+    margin-top: 1025px;
+    right: 745px;
+    padding: 10px;
+    line-height: 1.6;
+    text-indent: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+}
+.pavlova h2 {
+    text-align: center;
+    text-decoration: underline dotted;
+}
+.pavlova #swan {
+    width: 200px;
+    height: 300px;
+    margin-left: 35%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+}
+.pavlova #img-caption3 {
+    background-color: rgb(122, 106, 106);
+    border-radius: 4px;
+    width: 255px;
+    height: 75px;
+    padding: 5px;
+    color:rgb(245, 128, 190);
+    text-align: center;
+    position: relative;
+    left: 175px;
+    bottom: 15px;
+     box-shadow: 0 4px 8px 3px rgb(245, 129, 191);
+}
+
+/* circle div */
+#circle {
+    border-radius: 75%;
+    width: 950px;
+    height: 950px;
+    position: relative;
+    float: right;
+    left: 655px;
+    bottom: 850px;
+}
+#circle #roundphotos {
+    border-radius: 75%;
+    width: 750px;
+    height: 750px;
+    position: relative;
+    top: 65px;
+    left: 55px;
+    margin: 5%;
+}
+#roundphotos #dancer-stretch {
+border-radius: 50%;
+filter: grayscale(100%);
+width: 450px;
+height: 450px;
+position: absolute;
+left: -65px;
+}
+#roundphotos #round {
+border-radius: 75%;
+width: 450px;
+height: 450px;
+position: absolute;
+right: -35px;
+}
+#roundphotos #closeup {
+  border-radius: 75%;
+  width: 275px;
+  height: 275px;
+  position:absolute;
+  top: 320px;
+  right: 215px;
+}
+ #roundphotos #img-caption4 {
+    color:rgb(245, 128, 190);
+    background-color: rgb(122, 106, 106);
+    width: 250px;
+    height: 75px;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+     box-shadow: 0 4px 8px 3px rgb(245, 129, 191);
+     position:absolute;
+     left: 199px;
+}
+
+/* start of misty section */
+#misty {
+    position: relative;
+    width: 1350px;
+    height:900px;
+    margin: auto;
+    top: 3000px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 3px rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197), 0 4px 8px 0 rgb(207, 197, 197), 0 6px 20px 0 rgb(207, 197, 197);
+}
+#misty .misty_head {
+    position: absolute;
+    text-align: center;
+    text-decoration: underline dotted;
+    margin-left: 45%;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+#misty .silhouette {
+    width: 450px;
+    height: 600px;
+    border-radius: 8px;
+    position: absolute;
+    left: 5px;
+    top: 125px;
+    max-height: inherit;
+    
+}
+#misty p {
+    text-indent: 10px;
+    line-height: 1.6;
+    position: relative;
+    top: 95px;
+    left:175px;
+   
+}
+
+/* style for links */
+a:visited {
+    color: rgb(122, 106, 106);
+}
+a:hover {
+    color: rgb(235, 42, 144);
+}
+
+/* footer */
+footer #end {
+    border-radius: 50%;
+    height: 65px;
+    width: 95px;
+    position: absolute;
+    top: 4755px;
+    left: 665px;
+    display: inline;
+}
+footer p {
+    position: absolute;
+    top: 4755px;
+    text-align: center;
+    display: inline;
+}
+
+/* media query */
+
+/* small devices*/
+@media only screen and (max-width: 600px) {
+ body {
+font-size: 30px;
+ }
+ div {
+  font-size: smaller;   
+  max-width: 10%;
+  float:none;
+ }
+footer img {
+     max-width: 10%;
+     max-height: 10%;
+ }
+}
